@@ -1,0 +1,141 @@
+* {
+    cursor: default;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 240, 240);
+  }
+  body {
+    content: "";
+    background: black;
+    font-family: "Amatic SC", cursive;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    background: black;
+    height: 80px;
+    padding: 0px 20px;
+  }
+  .menu > div {
+    padding: 0px 20px;
+  }
+  .menu div a {
+    text-decoration: none;
+    font-size: 26px;
+    color: rgb(255, 240, 240);
+  }
+  #play {
+    margin-right: auto;
+  }
+  .menu div:nth-of-type(4) a {
+    color: rgb(252, 5, 5);
+  }
+  .menu > div > a:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+    background: rgb(255, 249, 249);
+  }
+  main article {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  main .plays {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    justify-content: center;
+    align-items: center;
+  }
+  main article:last-of-type {
+    padding-bottom: 30px;
+  }
+  main article h2,
+  main article a {
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+  }
+  main .plays .play {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    width: 225px;
+  }
+  main .plays .play a {
+    font-size: 18px;
+  }
+  main .plays .play div:first-of-type {
+    padding: 10px 0;
+  }
+  main .plays .play div {
+    padding-bottom: 10px;
+  }
+  main .plays .play div:last-of-type a {
+    font-size: 25px;
+  }
+  main .play > div:last-of-type a:hover {
+    cursor: pointer;
+  }
+  main button {
+    cursor: pointer;
+    color: red;
+    cursor: pointer;
+    font-family: "Amatic SC", cursive;
+    border: 1px solid red;
+    background: rgb(255, 249, 249);
+    font-size: 15px;
+    padding: 8px 50px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+  
+  main button:hover {
+    transform: scale(1.25);
+    cursor: pointer;
+  }
+  
+  main button footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+    height: 80px;
+    background: rgb(88, 88, 88);
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+    height: 80px;
+    background: rgb(247, 4, 4);
+  }
+  footer p {
+    font-size: 30px;
+  }
